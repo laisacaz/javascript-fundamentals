@@ -9,3 +9,5 @@ let a = 3; // não é exportada, é local
 abc = 3; // sem var ou let, está automaticamente colocando no global, não faça isso.
 this.c = 456; // está no global
 console.log(module.exports.c);
+
+// sempre procurar deixar a variável local e não global.
